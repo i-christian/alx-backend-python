@@ -9,9 +9,9 @@ import typing
 
 async def async_generator() -> typing.Generator[float, None, None]:
     """
-    Asynchronous generator coroutine that yields random numbers between 0 and 10.
+    Asynchronous generator coroutine that yields rand numbers between 0 and 10.
 
-    This coroutine loops 10 times, each time asynchronously waiting for 1 second
+    This coroutine loops 10 times, each time asynchronously waiting for 1 sec.
     and then yielding a random number between 0 and 10 using the random module.
 
     Yields:
